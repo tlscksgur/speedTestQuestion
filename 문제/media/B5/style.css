@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    padding: 20px 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    color: white;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.container {
+    margin: auto 50px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-outer {
+    width: 30%;
+    height: 83%;
+    position: relative;
+    perspective: 1500px;
+}
+
+.item-inner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: .8s ease;
+    transform-style: preserve-3d;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.item-outer:hover .item-inner {
+    transform: rotateY(180deg);
+}
+
+.item-outer:nth-child(1) .front {
+    background: linear-gradient(135deg, #69AFF5, #EA0ED3);
+}
+
+.item-outer:nth-child(2) .front {
+    background: linear-gradient(135deg, #fce364, #f12acf);
+}
+
+.item-outer:nth-child(3) .front {
+    background: linear-gradient(135deg, #9454f8, #28f676);
+}
+
+.item-outer:nth-child(1) .back {
+    background: linear-gradient(-45deg, #69AFF5, #EA0ED3);
+}
+
+.item-outer:nth-child(2) .back {
+    background: linear-gradient(-45deg, #fce364, #f12acf);
+}
+
+.item-outer:nth-child(3) .back {
+    background: linear-gradient(-45deg, #9454f8, #28f676);
+}
+
+.hidden-box {
+    height: 100%;
+    padding: 180px 0;
+    justify-content: space-between;
+}
+
+.hidden-box p {
+    color: white;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.hidden-box h1 {
+    font-size: 6rem;
+    color: white;
+    font-weight: lighter;
+}
+
+.hidden-box button {
+    padding: 25px 60px;
+    border-radius: 5px;
+    background: white;
+    color: #777;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.item-img {
+    width: 80px;
+    height: 80px;
+    filter: invert();
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.f-d {
+    flex-direction: column;
+}
+
+.item-box-1 {
+    padding: 70px 0;
+}
+
+.item-title {
+    color: white;
+    font-size: 4rem;
+    font-weight: lighter;
+}
+
+.content-box {
+    width: 100%;
+    padding: 0 60px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content p {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.content .line {
+    width: 100%;
+    height: 1px;
+    background: white;
+    margin: 15px 0;
+}
+
+.line.other {
+    background: #aaa;
+}

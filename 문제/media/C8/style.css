@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.fire {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-image: url('./firework_sprites.png');
+    animation: fire .5s forwards steps(25) reverse;
+}
+
+@keyframes fire {
+    100% {
+        background-position: calc(120px * 25);
+    }
+}

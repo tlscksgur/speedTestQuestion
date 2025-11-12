@@ -1,0 +1,38 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.pixel-box {
+    border: 1px solid #333;
+    width: calc(16px * 16);
+    height: calc(16px * 16);
+    position: relative;
+}
+
+.pixel-box > div {
+    width: 16px;
+    height: 16px;
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    position: absolute;
+}
+
+.palette {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(8, 35px);
+    grid-template-rows: repeat(2, 35px);
+    gap: 5px;
+}
+
+.palette > div {
+    border-radius: 50%;
+    border: 3px solid #aaa;
+    cursor: pointer;
+}

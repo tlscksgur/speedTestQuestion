@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: #343434;
+        }
+
+
+        html, body {
+            height: 100%;
+        }
+
+        #app {
+            display: flex;
+            justify-content: center;
+            padding-top: 60px;
+        }
+
+        #input-control {
+            margin-bottom: 40px;
+        }
+
+        #color-input {
+            outline: none;
+            width: 280px;
+            font-size: 18px;
+            padding: 8px 10px;
+        }
+
+        #main-title {
+            margin-bottom: 20px;
+        }
+
+        #sub-title {
+            margin-bottom: 10px;
+        }
+
+
+        #result-control {
+            width: 360px;
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <div>
+        <div id="input-control">
+            <h1 id="main-title">Input your color</h1>
+            <input id="color-input" type="text">
+        </div>
+
+        <div id="result-control">
+            <h2 id="sub-title">Result</h2>
+            <div class="success-result">
+                <div>The color format is : <span class="color-type">{ RGB || HEX } </span></div>
+                <div>HEX value : <span class="hex-color-value">{ Value sample : #ffffff }</span></div>
+                <div>RGB value : <span class="rgb-color-value">{ Value sample : rgb(255,255,255) }</span></div>
+            </div>
+            <div class="error-result">
+                Error
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 150px;
+    display: flex;
+}
+
+.img-box > div {
+    width: 10%;
+    height: 100%;
+    background: yellow;
+    transition: .5s;
+}
+
+.img-box > div:nth-child(1):hover {
+
+}
+
+img {
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-clip: content-box;
+}

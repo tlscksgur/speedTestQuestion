@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    cursor: url('cursor.png'), pointer;
+}
+
+#circle {
+    width: 0;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background: #999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    opacity: 1;
+}

@@ -1,0 +1,1502 @@
+[
+    {
+        "id": "559957",
+        "title": "Shanghai Fortress",
+        "genres": "Science Fiction-War",
+        "popularity": "346.306",
+        "release_date": "2019-08-09",
+        "runtime": "107",
+        "vote_average": "5.6",
+        "poster_path": "cODqUZ3XzDz4lkhxw0OnaUSfz8R.jpg"
+    },
+    {
+        "id": "9470",
+        "title": "Kung Fu Hustle",
+        "genres": "Action-Comedy-Crime-Fantasy",
+        "popularity": "335.497",
+        "release_date": "2004-02-10",
+        "runtime": "99",
+        "vote_average": "7.4",
+        "poster_path": "exbyTbrvRUDKN2mcNEuVor4VFQW.jpg"
+    },
+    {
+        "id": "604822",
+        "title": "Vanguard",
+        "genres": "Action-Adventure-Crime",
+        "popularity": "335.656",
+        "release_date": "2020-09-30",
+        "runtime": "107",
+        "vote_average": "6.3",
+        "poster_path": "mKvw1Ic9enfFlCPBNJGiejRPMUO.jpg"
+    },
+    {
+        "id": "664236",
+        "title": "Extinct",
+        "genres": "Animation-Comedy-Family-Adventure",
+        "popularity": "311.741",
+        "release_date": "2021-02-11",
+        "runtime": "85",
+        "vote_average": "6.5",
+        "poster_path": "tRnPT88iD5zgeUPjHqaZznrxk5m.jpg"
+    },
+    {
+        "id": "414906",
+        "title": "The Batman",
+        "genres": "Crime-Mystery-Thriller",
+        "popularity": "8195.597",
+        "release_date": "2022-03-01",
+        "runtime": "176",
+        "vote_average": "7.8",
+        "poster_path": "74xTEgt7R36Fpooo50r9T25onhq.jpg"
+    },
+    {
+        "id": "634649",
+        "title": "Spider-Man: No Way Home",
+        "genres": "Action-Adventure-Science Fiction",
+        "popularity": "4716.995",
+        "release_date": "2021-12-15",
+        "runtime": "148",
+        "vote_average": "8.1",
+        "poster_path": "1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    {
+        "id": "799876",
+        "title": "The Outfit",
+        "genres": "Drama-Thriller-Crime",
+        "popularity": "2752.077",
+        "release_date": "2022-02-25",
+        "runtime": "105",
+        "vote_average": "7",
+        "poster_path": "ieOVuwnoFC49m7bekmdQ4AynciS.jpg"
+    },
+    {
+        "id": "508947",
+        "title": "Turning Red",
+        "genres": "Animation-Family-Comedy-Fantasy",
+        "popularity": "3513.967",
+        "release_date": "2022-03-10",
+        "runtime": "100",
+        "vote_average": "7.4",
+        "poster_path": "qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg"
+    },
+    {
+        "id": "675353",
+        "title": "Sonic the Hedgehog 2",
+        "genres": "Action-Science Fiction-Comedy-Family",
+        "popularity": "4056.245",
+        "release_date": "2022-03-30",
+        "runtime": "122",
+        "vote_average": "7.6",
+        "poster_path": "6DrHO1jr3qVrViUO6s6kFiAGM7.jpg"
+    },
+    {
+        "id": "606402",
+        "title": "Yaksha: Ruthless Operations",
+        "genres": "Action",
+        "popularity": "1866.502",
+        "release_date": "2022-04-08",
+        "runtime": "125",
+        "vote_average": "6.2",
+        "poster_path": "7MDgiFOPUCeG74nQsMKJuzTJrtc.jpg"
+    },
+    {
+        "id": "406759",
+        "title": "Moonfall",
+        "genres": "Action-Adventure-Science Fiction",
+        "popularity": "2291.114",
+        "release_date": "2022-02-03",
+        "runtime": "130",
+        "vote_average": "6.5",
+        "poster_path": "odVv1sqVs0KxBXiA8bhIBlPgalx.jpg"
+    },
+    {
+        "id": "335787",
+        "title": "Uncharted",
+        "genres": "Action-Adventure-Family",
+        "popularity": "9026.362",
+        "release_date": "2022-02-10",
+        "runtime": "116",
+        "vote_average": "7.2",
+        "poster_path": "tlZpSxYuBRoVJBOpUrPdQe9FmFq.jpg"
+    },
+    {
+        "id": "294793",
+        "title": "All the Old Knives",
+        "genres": "Thriller-Action",
+        "popularity": "1690.875",
+        "release_date": "2022-04-08",
+        "runtime": "102",
+        "vote_average": "6",
+        "poster_path": "g4tMniKxol1TBJrHlAtiDjjlx4Q.jpg"
+    },
+    {
+        "id": "823625",
+        "title": "Blacklight",
+        "genres": "Action-Thriller",
+        "popularity": "1635.723",
+        "release_date": "2022-02-10",
+        "runtime": "104",
+        "vote_average": "6.2",
+        "poster_path": "bv9dy8mnwftdY2j6gG39gCfSFpV.jpg"
+    },
+    {
+        "id": "568124",
+        "title": "Encanto",
+        "genres": "Animation-Comedy-Family-Fantasy",
+        "popularity": "1674.855",
+        "release_date": "2021-11-24",
+        "runtime": "102",
+        "vote_average": "7.7",
+        "poster_path": "4j0PNHkMr5ax3IA8tjtxcmPU3QT.jpg"
+    },
+    {
+        "id": "919689",
+        "title": "War of the Worlds: Annihilation",
+        "genres": "Science Fiction-Action",
+        "popularity": "1556.313",
+        "release_date": "2021-12-22",
+        "runtime": "113",
+        "vote_average": "5.6",
+        "poster_path": "9eiUNsUAw2iwVyMeXNNiNQQad4E.jpg"
+    },
+    {
+        "id": "696806",
+        "title": "The Adam Project",
+        "genres": "Action-Adventure-Comedy-Science Fiction",
+        "popularity": "1395.056",
+        "release_date": "2022-03-11",
+        "runtime": "106",
+        "vote_average": "7",
+        "poster_path": "wFjboE0aFZNbVOF05fzrka9Fqyx.jpg"
+    },
+    {
+        "id": "833425",
+        "title": "No Exit",
+        "genres": "Horror-Thriller",
+        "popularity": "1206.748",
+        "release_date": "2022-02-25",
+        "runtime": "96",
+        "vote_average": "6.7",
+        "poster_path": "5cnLoWq9o5tuLe1Zq4BTX4LwZ2B.jpg"
+    },
+    {
+        "id": "760926",
+        "title": "Gold",
+        "genres": "Thriller-Action",
+        "popularity": "1034.682",
+        "release_date": "2022-01-13",
+        "runtime": "97",
+        "vote_average": "6.4",
+        "poster_path": "ejXBuNLvK4kZ7YcqeKqUWnCxdJq.jpg"
+    },
+    {
+        "id": "676705",
+        "title": "Pil's Adventures",
+        "genres": "Adventure-Animation-Comedy-Family-Fantasy",
+        "popularity": "1270.482",
+        "release_date": "2021-08-11",
+        "runtime": "89",
+        "vote_average": "6.7",
+        "poster_path": "abPQVYyNfVuGoFUfGVhlNecu0QG.jpg"
+    },
+    {
+        "id": "760868",
+        "title": "Black Crab",
+        "genres": "Action-Thriller",
+        "popularity": "1116.696",
+        "release_date": "2022-03-18",
+        "runtime": "109",
+        "vote_average": "6.3",
+        "poster_path": "mcIYHZYwUbvhvUt8Lb5nENJ7AlX.jpg"
+    },
+    {
+        "id": "585083",
+        "title": "Hotel Transylvania: Transformania",
+        "genres": "Animation-Family-Fantasy-Comedy-Adventure",
+        "popularity": "1138.026",
+        "release_date": "2022-02-25",
+        "runtime": "87",
+        "vote_average": "7.1",
+        "poster_path": "teCy1egGQa0y8ULJvlrDHQKnxBL.jpg"
+    },
+    {
+        "id": "928381",
+        "title": "Restless",
+        "genres": "Action-Thriller-Crime",
+        "popularity": "917.189",
+        "release_date": "2022-02-25",
+        "runtime": "95",
+        "vote_average": "5.9",
+        "poster_path": "9MP21x0OPv0R72obd63tMHssmGt.jpg"
+    },
+    {
+        "id": "661791",
+        "title": "The Grandmother",
+        "genres": "Horror",
+        "popularity": "1248.638",
+        "release_date": "2022-01-28",
+        "runtime": "100",
+        "vote_average": "6.1",
+        "poster_path": "eIUixNvox4U4foL5Z9KbN9HXYSM.jpg"
+    },
+    {
+        "id": "580489",
+        "title": "Venom: Let There Be Carnage",
+        "genres": "Science Fiction-Action-Adventure",
+        "popularity": "1125.912",
+        "release_date": "2021-09-30",
+        "runtime": "97",
+        "vote_average": "7",
+        "poster_path": "rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg"
+    },
+    {
+        "id": "768744",
+        "title": "My Hero Academia: World Heroes' Mission",
+        "genres": "Animation-Action-Fantasy-Adventure",
+        "popularity": "986.116",
+        "release_date": "2021-08-06",
+        "runtime": "105",
+        "vote_average": "7.3",
+        "poster_path": "4NUzcKtYPKkfTwKsLjwNt8nRIXV.jpg"
+    },
+    {
+        "id": "818750",
+        "title": "The In Between",
+        "genres": "Romance-Science Fiction-Drama",
+        "popularity": "844.068",
+        "release_date": "2022-02-11",
+        "runtime": "116",
+        "vote_average": "7",
+        "poster_path": "7RcyjraM1cB1Uxy2W9ZWrab4KCw.jpg"
+    },
+    {
+        "id": "338953",
+        "title": "Fantastic Beasts: The Secrets of Dumbledore",
+        "genres": "Fantasy-Adventure",
+        "popularity": "1026.105",
+        "release_date": "2022-04-06",
+        "runtime": "142",
+        "vote_average": "6.8",
+        "poster_path": "jrgifaYeUtTnaH7NF5Drkgjg2MB.jpg"
+    },
+    {
+        "id": "524434",
+        "title": "Eternals",
+        "genres": "Science Fiction-Action",
+        "popularity": "981.809",
+        "release_date": "2021-11-03",
+        "runtime": "156",
+        "vote_average": "7.1",
+        "poster_path": "bcCBq9N1EMo3daNIjWJ8kYvrQm6.jpg"
+    },
+    {
+        "id": "774825",
+        "title": "The Ice Age Adventures of Buck Wild",
+        "genres": "Animation-Comedy-Adventure-Family",
+        "popularity": "1039.045",
+        "release_date": "2022-01-28",
+        "runtime": "82",
+        "vote_average": "6.9",
+        "poster_path": "zzXFM4FKDG7l1ufrAkwQYv2xvnh.jpg"
+    },
+    {
+        "id": "938596",
+        "title": "Bull Shark",
+        "genres": "Horror",
+        "popularity": "1001.797",
+        "release_date": "2022-02-05",
+        "runtime": "80",
+        "vote_average": "5.3",
+        "poster_path": "wGE4ImqYjJZQi3xFu4I2OLm8m0w.jpg"
+    },
+    {
+        "id": "454626",
+        "title": "Sonic the Hedgehog",
+        "genres": "Action-Science Fiction-Comedy-Family",
+        "popularity": "1058.493",
+        "release_date": "2020-02-12",
+        "runtime": "99",
+        "vote_average": "7.4",
+        "poster_path": "aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg"
+    },
+    {
+        "id": "739993",
+        "title": "Metal Lords",
+        "genres": "Comedy-Drama-Music",
+        "popularity": "505.904",
+        "release_date": "2022-04-08",
+        "runtime": "97",
+        "vote_average": "6.8",
+        "poster_path": "r97txZRmBb75SGsIAWqmplWJnO3.jpg"
+    },
+    {
+        "id": "438695",
+        "title": "Sing 2",
+        "genres": "Animation-Comedy-Family-Music",
+        "popularity": "966.721",
+        "release_date": "2021-12-01",
+        "runtime": "110",
+        "vote_average": "8.1",
+        "poster_path": "aWeKITRFbbwY8txG5uCj4rMCfSP.jpg"
+    },
+    {
+        "id": "928999",
+        "title": "Desperate Riders",
+        "genres": "Western-Action",
+        "popularity": "707.205",
+        "release_date": "2022-02-25",
+        "runtime": "90",
+        "vote_average": "6.1",
+        "poster_path": "7pYYGm1dWZGkbJuhcuaHD6nE6k7.jpg"
+    },
+    {
+        "id": "753232",
+        "title": "The Commando",
+        "genres": "Action-Crime-Thriller",
+        "popularity": "654.696",
+        "release_date": "2022-01-07",
+        "runtime": "93",
+        "vote_average": "6.6",
+        "poster_path": "mn1GYIQ1tvFuuu0YBNZBvrHyrkO.jpg"
+    },
+    {
+        "id": "635302",
+        "title": "Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train",
+        "genres": "Animation-Action-Adventure-Fantasy",
+        "popularity": "849.467",
+        "release_date": "2020-10-16",
+        "runtime": "117",
+        "vote_average": "8.4",
+        "poster_path": "h8Rb9gBr48ODIwYUttZNYeMWeUU.jpg"
+    },
+    {
+        "id": "890656",
+        "title": "Fistful of Vengeance",
+        "genres": "Action-Crime-Fantasy",
+        "popularity": "583.573",
+        "release_date": "2022-02-17",
+        "runtime": "94",
+        "vote_average": "5.4",
+        "poster_path": "3cccEF9QZgV9bLWyupJO41HSrOV.jpg"
+    },
+    {
+        "id": "860623",
+        "title": "Last Man Down",
+        "genres": "Action-Thriller",
+        "popularity": "762.332",
+        "release_date": "2021-10-19",
+        "runtime": "87",
+        "vote_average": "6.3",
+        "poster_path": "4B7liCxNCZIZGONmAMkCnxVlZQV.jpg"
+    },
+    {
+        "id": "476669",
+        "title": "The King's Man",
+        "genres": "Action-Adventure-Thriller-War-Mystery",
+        "popularity": "758.115",
+        "release_date": "2021-12-22",
+        "runtime": "131",
+        "vote_average": "6.9",
+        "poster_path": "nj5HmHRZsrYQEYYXyAusFv35erP.jpg"
+    },
+    {
+        "id": "803114",
+        "title": "The Requin",
+        "genres": "Thriller",
+        "popularity": "832.596",
+        "release_date": "2022-01-28",
+        "runtime": "89",
+        "vote_average": "4.8",
+        "poster_path": "i0z8g2VRZP3dhVvvSMilbOZMKqR.jpg"
+    },
+    {
+        "id": "800510",
+        "title": "Kimi",
+        "genres": "Thriller",
+        "popularity": "683.045",
+        "release_date": "2022-02-10",
+        "runtime": "89",
+        "vote_average": "6.2",
+        "poster_path": "okNgwtxIWzGsNlR3GsOS0i0Qgbn.jpg"
+    },
+    {
+        "id": "425909",
+        "title": "Ghostbusters: Afterlife",
+        "genres": "Fantasy-Comedy-Adventure",
+        "popularity": "693.433",
+        "release_date": "2021-11-11",
+        "runtime": "124",
+        "vote_average": "7.7",
+        "poster_path": "sg4xJaufDiQl7caFEskBtQXfD4x.jpg"
+    },
+    {
+        "id": "526896",
+        "title": "Morbius",
+        "genres": "Action-Science Fiction-Fantasy",
+        "popularity": "760.44",
+        "release_date": "2022-03-30",
+        "runtime": "104",
+        "vote_average": "5.9",
+        "poster_path": "6nhwr1LCozBiIN47b8oBEomOADm.jpg"
+    },
+    {
+        "id": "597208",
+        "title": "Nightmare Alley",
+        "genres": "Crime-Drama-Thriller",
+        "popularity": "610.745",
+        "release_date": "2021-12-02",
+        "runtime": "150",
+        "vote_average": "7.1",
+        "poster_path": "680klE0dIreQQOyWKFgNnCAJtws.jpg"
+    },
+    {
+        "id": "460458",
+        "title": "Resident Evil: Welcome to Raccoon City",
+        "genres": "Horror-Action-Science Fiction",
+        "popularity": "709.34",
+        "release_date": "2021-11-24",
+        "runtime": "107",
+        "vote_average": "6.2",
+        "poster_path": "7uRbWOXxpWDMtnsd2PF3clu65jc.jpg"
+    },
+    {
+        "id": "801071",
+        "title": "The Jack in the Box: Awakening",
+        "genres": "Horror",
+        "popularity": "760.256",
+        "release_date": "2022-02-24",
+        "runtime": "89",
+        "vote_average": "6.1",
+        "poster_path": "3Ib8vlWTrAKRrTWUrTrZPOMW4jp.jpg"
+    },
+    {
+        "id": "58",
+        "title": "Pirates of the Caribbean: Dead Man's Chest",
+        "genres": "Adventure-Fantasy-Action",
+        "popularity": "703.69",
+        "release_date": "2006-07-06",
+        "runtime": "151",
+        "vote_average": "7.3",
+        "poster_path": "uXEqmloGyP7UXAiphJUu2v2pcuE.jpg"
+    },
+    {
+        "id": "939243",
+        "title": "Sonic the Hedgehog 3",
+        "genres": "Action-Adventure-Fantasy",
+        "popularity": "914.031",
+        "release_date": "",
+        "runtime": "0",
+        "vote_average": "0",
+        "poster_path": "aNSBaYTgPz8QEADi3xiD52X4uVF.jpg"
+    },
+    {
+        "id": "566525",
+        "title": "Shang-Chi and the Legend of the Ten Rings",
+        "genres": "Action-Adventure-Fantasy",
+        "popularity": "692.794",
+        "release_date": "2021-09-01",
+        "runtime": "132",
+        "vote_average": "7.7",
+        "poster_path": "1BIoJGKbXjdFDAqUEiA2VHqkK1Z.jpg"
+    },
+    {
+        "id": "624860",
+        "title": "The Matrix Resurrections",
+        "genres": "Science Fiction-Action-Adventure",
+        "popularity": "621.343",
+        "release_date": "2021-12-16",
+        "runtime": "148",
+        "vote_average": "6.7",
+        "poster_path": "8c4a8kE7PizaGQQnditMmI1xbRp.jpg"
+    },
+    {
+        "id": "1865",
+        "title": "Pirates of the Caribbean: On Stranger Tides",
+        "genres": "Adventure-Action-Fantasy",
+        "popularity": "714.278",
+        "release_date": "2011-05-14",
+        "runtime": "137",
+        "vote_average": "6.5",
+        "poster_path": "keGfSvCmYj7CvdRx36OdVrAEibE.jpg"
+    },
+    {
+        "id": "656663",
+        "title": "Jackass Forever",
+        "genres": "Comedy-Documentary-Action",
+        "popularity": "640.172",
+        "release_date": "2022-02-01",
+        "runtime": "96",
+        "vote_average": "6.9",
+        "poster_path": "ugIdyvtAzHWOguD91UjHKoAvfum.jpg"
+    },
+    {
+        "id": "22",
+        "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "genres": "Adventure-Fantasy-Action",
+        "popularity": "625.521",
+        "release_date": "2003-07-09",
+        "runtime": "143",
+        "vote_average": "7.8",
+        "poster_path": "z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg"
+    },
+    {
+        "id": "871799",
+        "title": "Pursuit",
+        "genres": "Action-Crime-Thriller",
+        "popularity": "482.719",
+        "release_date": "2022-02-18",
+        "runtime": "92",
+        "vote_average": "5.5",
+        "poster_path": "oUU6blOmIu155vfIgzML3ZSsDrB.jpg"
+    },
+    {
+        "id": "783461",
+        "title": "Looop Lapeta",
+        "genres": "Action-Comedy-Crime",
+        "popularity": "532.53",
+        "release_date": "2022-02-04",
+        "runtime": "131",
+        "vote_average": "6.2",
+        "poster_path": "onGdT8sYi89drvSJyEJnft97rOq.jpg"
+    },
+    {
+        "id": "646385",
+        "title": "Scream",
+        "genres": "Horror-Mystery-Thriller",
+        "popularity": "652.899",
+        "release_date": "2022-01-12",
+        "runtime": "114",
+        "vote_average": "6.8",
+        "poster_path": "1m3W6cpgwuIyjtg5nSnPx7yFkXW.jpg"
+    },
+    {
+        "id": "285",
+        "title": "Pirates of the Caribbean: At World's End",
+        "genres": "Adventure-Fantasy-Action",
+        "popularity": "651.954",
+        "release_date": "2007-05-19",
+        "runtime": "169",
+        "vote_average": "7.2",
+        "poster_path": "2YMnBRh8F6fDGCCEIPk9Hb0cEyB.jpg"
+    },
+    {
+        "id": "7980",
+        "title": "The Lovely Bones",
+        "genres": "Fantasy-Drama",
+        "popularity": "224.791",
+        "release_date": "2009-02-19",
+        "runtime": "136",
+        "vote_average": "7",
+        "poster_path": "2077z7jOT8FynMBFZd7OKcbZljy.jpg"
+    },
+    {
+        "id": "459151",
+        "title": "The Boss Baby: Family Business",
+        "genres": "Animation-Comedy-Adventure-Family",
+        "popularity": "573.518",
+        "release_date": "2021-07-01",
+        "runtime": "107",
+        "vote_average": "7.6",
+        "poster_path": "kv2Qk9MKFFQo4WQPaYta599HkJP.jpg"
+    },
+    {
+        "id": "843241",
+        "title": "The Seven Deadly Sins: Cursed by Light",
+        "genres": "Animation-Fantasy",
+        "popularity": "575.689",
+        "release_date": "2021-07-02",
+        "runtime": "79",
+        "vote_average": "7.9",
+        "poster_path": "k0ThmZQl5nHe4JefC2bXjqtgYp0.jpg"
+    },
+    {
+        "id": "910596",
+        "title": "Run Gun",
+        "genres": "Action-Thriller",
+        "popularity": "429.881",
+        "release_date": "2022-01-11",
+        "runtime": "96",
+        "vote_average": "5.1",
+        "poster_path": "4qlq5gPzWDZRfXJC9qgv9SfTThr.jpg"
+    },
+    {
+        "id": "675445",
+        "title": "PAW Patrol: The Movie",
+        "genres": "Animation-Family-Adventure-Comedy",
+        "popularity": "492.698",
+        "release_date": "2021-08-09",
+        "runtime": "86",
+        "vote_average": "7.5",
+        "poster_path": "ic0intvXZSfBlYPIvWXpU1ivUCO.jpg"
+    },
+    {
+        "id": "629542",
+        "title": "The Bad Guys",
+        "genres": "Animation-Comedy-Action-Family-Crime",
+        "popularity": "813.826",
+        "release_date": "2022-03-17",
+        "runtime": "100",
+        "vote_average": "7.3",
+        "poster_path": "7qop80YfuO0BwJa1uXk1DXUUEwv.jpg"
+    },
+    {
+        "id": "639933",
+        "title": "The Northman",
+        "genres": "Action-Adventure-Fantasy-Thriller",
+        "popularity": "547.196",
+        "release_date": "2022-04-07",
+        "runtime": "137",
+        "vote_average": "7.7",
+        "poster_path": "zhLKlUaF1SEpO58ppHIAyENkwgw.jpg"
+    },
+    {
+        "id": "765119",
+        "title": "The Bubble",
+        "genres": "Comedy",
+        "popularity": "414.322",
+        "release_date": "2022-03-25",
+        "runtime": "126",
+        "vote_average": "4.9",
+        "poster_path": "edYk5TSowZIDv138bCpF5ls3XI5.jpg"
+    },
+    {
+        "id": "892153",
+        "title": "Tom and Jerry: Cowboy Up!",
+        "genres": "Animation-Comedy-Family-Western",
+        "popularity": "502.896",
+        "release_date": "2022-01-24",
+        "runtime": "75",
+        "vote_average": "7",
+        "poster_path": "muIaHotSaSUQr0KZCIJOYQEe7y2.jpg"
+    },
+    {
+        "id": "453395",
+        "title": "Doctor Strange in the Multiverse of Madness",
+        "genres": "Fantasy-Action-Adventure",
+        "popularity": "967.115",
+        "release_date": "2022-05-04",
+        "runtime": "126",
+        "vote_average": "7.2",
+        "poster_path": "9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
+    },
+    {
+        "id": "585245",
+        "title": "Clifford the Big Red Dog",
+        "genres": "Family-Adventure-Comedy-Fantasy",
+        "popularity": "506.338",
+        "release_date": "2021-11-10",
+        "runtime": "97",
+        "vote_average": "7.3",
+        "poster_path": "oifhfVhUcuDjE61V5bS5dfShQrm.jpg"
+    },
+    {
+        "id": "766907",
+        "title": "American Siege",
+        "genres": "Action-Thriller-Crime-Drama",
+        "popularity": "492.569",
+        "release_date": "2022-01-07",
+        "runtime": "90",
+        "vote_average": "5.9",
+        "poster_path": "daeVrgyj0ue8qb3AHyU3UeCwoZz.jpg"
+    },
+    {
+        "id": "632727",
+        "title": "Texas Chainsaw Massacre",
+        "genres": "Horror-Thriller",
+        "popularity": "549.925",
+        "release_date": "2022-02-18",
+        "runtime": "83",
+        "vote_average": "5.1",
+        "poster_path": "meRIRfADEGVo65xgPO6eZvJ0CRG.jpg"
+    },
+    {
+        "id": "800407",
+        "title": "Dancing on Glass",
+        "genres": "Drama",
+        "popularity": "434.346",
+        "release_date": "2022-04-08",
+        "runtime": "137",
+        "vote_average": "5.9",
+        "poster_path": "ppF495JNP6poCCEAm4xM1nJEZzD.jpg"
+    },
+    {
+        "id": "926899",
+        "title": "The House",
+        "genres": "Animation-Drama-Comedy-Horror",
+        "popularity": "502.83",
+        "release_date": "2022-01-14",
+        "runtime": "97",
+        "vote_average": "7",
+        "poster_path": "iZjMFSKCrleKolC1gYcz5Rs8bk1.jpg"
+    },
+    {
+        "id": "512195",
+        "title": "Red Notice",
+        "genres": "Action-Comedy-Crime-Thriller",
+        "popularity": "510.399",
+        "release_date": "2021-11-04",
+        "runtime": "118",
+        "vote_average": "6.8",
+        "poster_path": "lAXONuqg41NwUMuzMiFvicDET9Y.jpg"
+    },
+    {
+        "id": "752623",
+        "title": "The Lost City",
+        "genres": "Action-Adventure-Comedy-Romance",
+        "popularity": "445.287",
+        "release_date": "2022-03-24",
+        "runtime": "112",
+        "vote_average": "7",
+        "poster_path": "neMZH82Stu91d3iqvLdNQfqPPyl.jpg"
+    },
+    {
+        "id": "505026",
+        "title": "Death on the Nile",
+        "genres": "Crime-Drama-Mystery-Thriller",
+        "popularity": "404.488",
+        "release_date": "2022-02-09",
+        "runtime": "127",
+        "vote_average": "6.5",
+        "poster_path": "kVr5zIAFSPRQ57Y1zE7KzmhzdMQ.jpg"
+    },
+    {
+        "id": "522016",
+        "title": "The 355",
+        "genres": "Action-Thriller",
+        "popularity": "453.028",
+        "release_date": "2022-01-05",
+        "runtime": "122",
+        "vote_average": "6",
+        "poster_path": "uQt2dJFMnJmAp9zLAWNfGilK0BW.jpg"
+    },
+    {
+        "id": "877183",
+        "title": "The Simpsons in Plusaversary",
+        "genres": "Animation-Comedy-Fantasy",
+        "popularity": "473.587",
+        "release_date": "2021-11-12",
+        "runtime": "4",
+        "vote_average": "6.7",
+        "poster_path": "p5jzbffrXuBTjsiwrQ3aOMTrvCj.jpg"
+    },
+    {
+        "id": "763285",
+        "title": "Ambulance",
+        "genres": "Action-Thriller-Crime",
+        "popularity": "1619.597",
+        "release_date": "2022-03-16",
+        "runtime": "136",
+        "vote_average": "6.9",
+        "poster_path": "zT5ynZ0UR6HFfWQSRf2uKtqCyWD.jpg"
+    },
+    {
+        "id": "818647",
+        "title": "Through My Window",
+        "genres": "Romance-Drama",
+        "popularity": "444.427",
+        "release_date": "2022-02-04",
+        "runtime": "112",
+        "vote_average": "7.6",
+        "poster_path": "6gg7fvKc1ZxP9yCczweSxIGYp4S.jpg"
+    },
+    {
+        "id": "589761",
+        "title": "Chernobyl: Abyss",
+        "genres": "Drama-History-Adventure",
+        "popularity": "448.138",
+        "release_date": "2021-04-15",
+        "runtime": "136",
+        "vote_average": "6.1",
+        "poster_path": "AmJLuHjxPdIJO6vmymeWADG6jK5.jpg"
+    },
+    {
+        "id": "811592",
+        "title": "One Shot",
+        "genres": "Action",
+        "popularity": "379.595",
+        "release_date": "2021-11-05",
+        "runtime": "97",
+        "vote_average": "6.8",
+        "poster_path": "3OXiTjU30gWtqxmx4BU9RVp2OTv.jpg"
+    },
+    {
+        "id": "508943",
+        "title": "Luca",
+        "genres": "Animation-Comedy-Family-Fantasy-Adventure",
+        "popularity": "397.488",
+        "release_date": "2021-06-17",
+        "runtime": "95",
+        "vote_average": "7.9",
+        "poster_path": "jTswp6KyDYKtvC52GbHagrZbGvD.jpg"
+    },
+    {
+        "id": "460465",
+        "title": "Mortal Kombat",
+        "genres": "Action-Fantasy-Adventure",
+        "popularity": "445.649",
+        "release_date": "2021-04-07",
+        "runtime": "110",
+        "vote_average": "7.2",
+        "poster_path": "nkayOAUBUu4mMvyNf9iHSUiPjF1.jpg"
+    },
+    {
+        "id": "829920",
+        "title": "Fate\/Grand Order Final Singularity ? Grand Temple of Time: Solomon",
+        "genres": "Animation-Action-Adventure-Fantasy",
+        "popularity": "415.616",
+        "release_date": "2021-07-30",
+        "runtime": "94",
+        "vote_average": "6.3",
+        "poster_path": "1kRgPGHmqSpKdx1dzCjzG6QoYHb.jpg"
+    },
+    {
+        "id": "619979",
+        "title": "Deep Water",
+        "genres": "Drama-Mystery-Thriller",
+        "popularity": "387.632",
+        "release_date": "2022-03-18",
+        "runtime": "116",
+        "vote_average": "5.6",
+        "poster_path": "6yRMyWwjuhKg6IU66uiZIGhaSc8.jpg"
+    },
+    {
+        "id": "790525",
+        "title": "Forever Out of My League",
+        "genres": "Romance-Comedy",
+        "popularity": "343.726",
+        "release_date": "2022-01-31",
+        "runtime": "104",
+        "vote_average": "5.6",
+        "poster_path": "1zhsT17wTXAw5IxK9rSLtftu7Aw.jpg"
+    },
+    {
+        "id": "166426",
+        "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
+        "genres": "Adventure-Action-Fantasy",
+        "popularity": "444.716",
+        "release_date": "2017-05-23",
+        "runtime": "129",
+        "vote_average": "6.6",
+        "poster_path": "qwoGfcg6YUS55nUweKGujHE54Wy.jpg"
+    },
+    {
+        "id": "482321",
+        "title": "Ron's Gone Wrong",
+        "genres": "Animation-Science Fiction-Family-Comedy",
+        "popularity": "397.594",
+        "release_date": "2021-10-15",
+        "runtime": "107",
+        "vote_average": "8.1",
+        "poster_path": "plzgQAXIEHm4Y92ktxU6fedUc0x.jpg"
+    },
+    {
+        "id": "615904",
+        "title": "Marry Me",
+        "genres": "Romance-Comedy-Music",
+        "popularity": "344.035",
+        "release_date": "2022-02-09",
+        "runtime": "112",
+        "vote_average": "6.9",
+        "poster_path": "ko1JVbGj4bT8IhCWqjBQ6ZtF2t.jpg"
+    },
+    {
+        "id": "682344",
+        "title": "All Hail",
+        "genres": "Comedy-Drama",
+        "popularity": "332.183",
+        "release_date": "2022-03-30",
+        "runtime": "118",
+        "vote_average": "6.2",
+        "poster_path": "9zVyqx5WKb0iCkk46wDUxuwAiMR.jpg"
+    },
+    {
+        "id": "550988",
+        "title": "Free Guy",
+        "genres": "Comedy-Action-Adventure-Science Fiction",
+        "popularity": "401.558",
+        "release_date": "2021-08-11",
+        "runtime": "115",
+        "vote_average": "7.7",
+        "poster_path": "xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg"
+    },
+    {
+        "id": "438631",
+        "title": "Dune",
+        "genres": "Science Fiction-Adventure",
+        "popularity": "395.304",
+        "release_date": "2021-09-15",
+        "runtime": "155",
+        "vote_average": "7.9",
+        "poster_path": "d5NXSklXo0qyIYkgV94XAgMIckC.jpg"
+    },
+    {
+        "id": "810693",
+        "title": "Jujutsu Kaisen 0",
+        "genres": "Animation-Action-Adventure-Mystery",
+        "popularity": "359.272",
+        "release_date": "2021-12-24",
+        "runtime": "105",
+        "vote_average": "7.6",
+        "poster_path": "3pTwMUEavTzVOh6yLN0aEwR7uSy.jpg"
+    },
+    {
+        "id": "337404",
+        "title": "Cruella",
+        "genres": "Comedy-Crime-Adventure",
+        "popularity": "355.182",
+        "release_date": "2021-05-26",
+        "runtime": "134",
+        "vote_average": "8.2",
+        "poster_path": "wToO8opxkGwKgSfJ1JK8tGvkG6U.jpg"
+    },
+    {
+        "id": "785521",
+        "title": "Battle: Freestyle",
+        "genres": "Romance-Drama",
+        "popularity": "333.723",
+        "release_date": "2022-04-01",
+        "runtime": "88",
+        "vote_average": "5.1",
+        "poster_path": "6D6QumiHEhnpZG12Ibjy2BxA6n4.jpg"
+    },
+    {
+        "id": "589754",
+        "title": "The Last Warrior: Root of Evil",
+        "genres": "Fantasy-Adventure-Comedy",
+        "popularity": "396.844",
+        "release_date": "2021-01-01",
+        "runtime": "120",
+        "vote_average": "7.2",
+        "poster_path": "4qE7mvUYGY5epfcgeJpM6EfHgq5.jpg"
+    },
+    {
+        "id": "436969",
+        "title": "The Suicide Squad",
+        "genres": "Action-Adventure-Fantasy",
+        "popularity": "426.89",
+        "release_date": "2021-07-28",
+        "runtime": "132",
+        "vote_average": "7.7",
+        "poster_path": "kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg"
+    },
+    {
+        "id": "928769",
+        "title": "AI Love You",
+        "genres": "Comedy-Romance-Science Fiction",
+        "popularity": "252.599",
+        "release_date": "2022-02-15",
+        "runtime": "95",
+        "vote_average": "5.5",
+        "poster_path": "sBiJOvHCSWORnFpc4yItflIkdTi.jpg"
+    },
+    {
+        "id": "299536",
+        "title": "Avengers: Infinity War",
+        "genres": "Adventure-Action-Science Fiction",
+        "popularity": "417.883",
+        "release_date": "2018-04-25",
+        "runtime": "149",
+        "vote_average": "8.3",
+        "poster_path": "7WsyChQLEftFiDOVTGkv3hFpyyt.jpg"
+    },
+    {
+        "id": "826953",
+        "title": "Better Nate Than Ever",
+        "genres": "Music-Family-Comedy",
+        "popularity": "290.7",
+        "release_date": "2022-03-15",
+        "runtime": "92",
+        "vote_average": "6.8",
+        "poster_path": "55gkFbie2Nbudo21rDpi6zG0XvC.jpg"
+    },
+    {
+        "id": "774741",
+        "title": "Diary of a Wimpy Kid",
+        "genres": "Animation-Comedy-Family",
+        "popularity": "339.765",
+        "release_date": "2021-12-03",
+        "runtime": "58",
+        "vote_average": "6.4",
+        "poster_path": "obg6lWuNaZkoSlwrVG4VVk4SmT.jpg"
+    },
+    {
+        "id": "842052",
+        "title": "Echoes of a Crime",
+        "genres": "Thriller-Horror",
+        "popularity": "417.574",
+        "release_date": "2022-01-27",
+        "runtime": "84",
+        "vote_average": "7.2",
+        "poster_path": "6b0cvhxUtzgOZitexarQTLTHDCU.jpg"
+    },
+    {
+        "id": "829358",
+        "title": "Queen of Spades",
+        "genres": "Horror",
+        "popularity": "420.91",
+        "release_date": "2021-06-11",
+        "runtime": "91",
+        "vote_average": "6.4",
+        "poster_path": "4IKBzVBPLXu9p5cfEfdJjHdlafV.jpg"
+    },
+    {
+        "id": "284052",
+        "title": "Doctor Strange",
+        "genres": "Action-Adventure-Fantasy-Science Fiction",
+        "popularity": "607.703",
+        "release_date": "2016-10-25",
+        "runtime": "115",
+        "vote_average": "7.4",
+        "poster_path": "uGBVj3bEbCoZbDjjl9wTxcygko1.jpg"
+    },
+    {
+        "id": "870671",
+        "title": "The Hunting",
+        "genres": "Horror",
+        "popularity": "400.826",
+        "release_date": "2022-01-21",
+        "runtime": "91",
+        "vote_average": "4.9",
+        "poster_path": "kvhrltQIRp1u84ao9uj52YPaWNY.jpg"
+    },
+    {
+        "id": "370172",
+        "title": "No Time to Die",
+        "genres": "Adventure-Action-Thriller",
+        "popularity": "360.645",
+        "release_date": "2021-09-29",
+        "runtime": "163",
+        "vote_average": "7.5",
+        "poster_path": "iUgygt3fscRoKWCV1d0C7FbM9TP.jpg"
+    },
+    {
+        "id": "703771",
+        "title": "Deathstroke: Knights & Dragons - The Movie",
+        "genres": "Animation-Action-Adventure-Science Fiction",
+        "popularity": "369.937",
+        "release_date": "2020-08-04",
+        "runtime": "87",
+        "vote_average": "6.9",
+        "poster_path": "vFIHbiy55smzi50RmF8LQjmpGcx.jpg"
+    },
+    {
+        "id": "385128",
+        "title": "F9",
+        "genres": "Action-Crime-Thriller-Adventure",
+        "popularity": "388.797",
+        "release_date": "2021-05-19",
+        "runtime": "143",
+        "vote_average": "7.3",
+        "poster_path": "bOFaAXmWWXC3Rbv4u4uM9ZSzRXP.jpg"
+    },
+    {
+        "id": "581726",
+        "title": "Infinite",
+        "genres": "Science Fiction-Action-Thriller",
+        "popularity": "320.421",
+        "release_date": "2021-09-09",
+        "runtime": "106",
+        "vote_average": "6.7",
+        "poster_path": "niw2AKHz6XmwiRMLWaoyAOAti0G.jpg"
+    },
+    {
+        "id": "791373",
+        "title": "Zack Snyder's Justice League",
+        "genres": "Action-Adventure-Fantasy-Science Fiction",
+        "popularity": "315.339",
+        "release_date": "2021-03-18",
+        "runtime": "242",
+        "vote_average": "8.3",
+        "poster_path": "tnAuB8q5vv7Ax9UAEje5Xi4BXik.jpg"
+    },
+    {
+        "id": "50014",
+        "title": "The Help",
+        "genres": "Drama",
+        "popularity": "336.105",
+        "release_date": "2011-08-09",
+        "runtime": "146",
+        "vote_average": "8.2",
+        "poster_path": "7XLSwxpfpPoJyTdJVot6a42TS2V.jpg"
+    },
+    {
+        "id": "399566",
+        "title": "Godzilla vs. Kong",
+        "genres": "Action-Fantasy-Science Fiction",
+        "popularity": "332.855",
+        "release_date": "2021-03-24",
+        "runtime": "113",
+        "vote_average": "7.8",
+        "poster_path": "pgqgaUx1cJb5oZQQ5v0tNARCeBp.jpg"
+    },
+    {
+        "id": "451048",
+        "title": "Jungle Cruise",
+        "genres": "Action-Adventure-Fantasy",
+        "popularity": "328.733",
+        "release_date": "2021-07-28",
+        "runtime": "127",
+        "vote_average": "7.6",
+        "poster_path": "9dKCd55IuTT5QRs989m9Qlb7d2B.jpg"
+    },
+    {
+        "id": "516329",
+        "title": "Antlers",
+        "genres": "Drama-Horror-Mystery",
+        "popularity": "340.154",
+        "release_date": "2021-10-28",
+        "runtime": "99",
+        "vote_average": "6.4",
+        "poster_path": "cMch3tiexw3FdOEeZxMWVel61Xg.jpg"
+    },
+    {
+        "id": "739413",
+        "title": "Mother\/Android",
+        "genres": "Science Fiction-Thriller",
+        "popularity": "329.853",
+        "release_date": "2021-12-17",
+        "runtime": "111",
+        "vote_average": "5.8",
+        "poster_path": "rO3nV9d1wzHEWsC7xgwxotjZQpM.jpg"
+    },
+    {
+        "id": "379686",
+        "title": "Space Jam: A New Legacy",
+        "genres": "Family-Animation-Comedy-Science Fiction",
+        "popularity": "303.435",
+        "release_date": "2021-07-08",
+        "runtime": "115",
+        "vote_average": "7.1",
+        "poster_path": "5bFK5d3mVTAvBCXi5NPWH0tYjKl.jpg"
+    },
+    {
+        "id": "767825",
+        "title": "Moonshot",
+        "genres": "Comedy-Romance-Science Fiction",
+        "popularity": "280.117",
+        "release_date": "2022-05-05",
+        "runtime": "104",
+        "vote_average": "9",
+        "poster_path": "thqgzBPEDYQX0taszVus5nYMtTZ.jpg"
+    },
+    {
+        "id": "259316",
+        "title": "Fantastic Beasts and Where to Find Them",
+        "genres": "Adventure-Fantasy",
+        "popularity": "292.036",
+        "release_date": "2016-11-16",
+        "runtime": "132",
+        "vote_average": "7.3",
+        "poster_path": "fLsaFKExQt05yqjoAvKsmOMYvJR.jpg"
+    },
+    {
+        "id": "497698",
+        "title": "Black Widow",
+        "genres": "Action-Adventure-Science Fiction",
+        "popularity": "312.129",
+        "release_date": "2021-07-07",
+        "runtime": "134",
+        "vote_average": "7.5",
+        "poster_path": "qAZ0pzat24kLdO3o8ejmbLxyOac.jpg"
+    },
+    {
+        "id": "770254",
+        "title": "Back to the Outback",
+        "genres": "Animation-Family-Adventure-Comedy",
+        "popularity": "308.277",
+        "release_date": "2021-12-03",
+        "runtime": "92",
+        "vote_average": "7.6",
+        "poster_path": "zNXNRLH5wJprUG6B1olaBTNZOjy.jpg"
+    },
+    {
+        "id": "19995",
+        "title": "Avatar",
+        "genres": "Action-Adventure-Fantasy-Science Fiction",
+        "popularity": "410.262",
+        "release_date": "2009-12-10",
+        "runtime": "162",
+        "vote_average": "7.5",
+        "poster_path": "jRXYjXNq0Cs2TcJjLkki24MLp7u.jpg"
+    },
+    {
+        "id": "588228",
+        "title": "The Tomorrow War",
+        "genres": "Action-Science Fiction-Adventure",
+        "popularity": "277.737",
+        "release_date": "2021-07-02",
+        "runtime": "138",
+        "vote_average": "8",
+        "poster_path": "34nDCQZwaEvsy4CFO5hkGRFDCVU.jpg"
+    },
+    {
+        "id": "726684",
+        "title": "Miraculous World: Shanghai ? The Legend of Ladydragon",
+        "genres": "Animation-Comedy-Family-Adventure",
+        "popularity": "268.898",
+        "release_date": "2021-05-15",
+        "runtime": "52",
+        "vote_average": "7.9",
+        "poster_path": "qQ0VKsGRQ2ofAmswGNzZnvC1xPE.jpg"
+    },
+    {
+        "id": "522402",
+        "title": "Finch",
+        "genres": "Science Fiction-Drama-Adventure",
+        "popularity": "333.952",
+        "release_date": "2021-11-04",
+        "runtime": "115",
+        "vote_average": "8.1",
+        "poster_path": "jKuDyqx7jrjiR9cDzB5pxzhJAdv.jpg"
+    },
+    {
+        "id": "840882",
+        "title": "The Weekend Away",
+        "genres": "Thriller-Mystery",
+        "popularity": "353.906",
+        "release_date": "2022-03-03",
+        "runtime": "91",
+        "vote_average": "5.9",
+        "poster_path": "6MS0QEl7UK2gdFFbHfNwuYlsq4H.jpg"
+    },
+    {
+        "id": "756403",
+        "title": "Riverdance: The Animated Adventure",
+        "genres": "Animation-Fantasy-Music-Adventure-Comedy-Family",
+        "popularity": "285.788",
+        "release_date": "2021-05-28",
+        "runtime": "86",
+        "vote_average": "5.3",
+        "poster_path": "i6TRDlVuuEXMyLSlIkDd8YhBN0r.jpg"
+    },
+    {
+        "id": "691683",
+        "title": "Cheaper by the Dozen",
+        "genres": "Family-Comedy",
+        "popularity": "308.448",
+        "release_date": "2022-03-18",
+        "runtime": "107",
+        "vote_average": "6.3",
+        "poster_path": "qNRsouZh5zmhaE3n4QpLDXzy1gQ.jpg"
+    },
+    {
+        "id": "671",
+        "title": "Harry Potter and the Philosopher's Stone",
+        "genres": "Adventure-Fantasy",
+        "popularity": "329.65",
+        "release_date": "2001-11-16",
+        "runtime": "152",
+        "vote_average": "7.9",
+        "poster_path": "wuMc08IPKEatf9rnMNXvIDxqP4W.jpg"
+    },
+    {
+        "id": "529203",
+        "title": "The Croods: A New Age",
+        "genres": "Animation-Family-Adventure-Fantasy-Comedy",
+        "popularity": "277.739",
+        "release_date": "2020-11-25",
+        "runtime": "95",
+        "vote_average": "7.6",
+        "poster_path": "tbVZ3Sq88dZaCANlUcewQuHQOaE.jpg"
+    },
+    {
+        "id": "944664",
+        "title": "Without Saying Goodbye",
+        "genres": "Comedy-Romance",
+        "popularity": "285.317",
+        "release_date": "2022-03-18",
+        "runtime": "96",
+        "vote_average": "6.8",
+        "poster_path": "11SOeFmUEHahuyMOxxT1wdJ3iJs.jpg"
+    },
+    {
+        "id": "303857",
+        "title": "Dragon Ball Z: Resurrection 'F'",
+        "genres": "Action-Animation-Science Fiction",
+        "popularity": "294.624",
+        "release_date": "2015-04-18",
+        "runtime": "93",
+        "vote_average": "6.8",
+        "poster_path": "soq3AxjALdBfdPAm8H7yuMmNL5Y.jpg"
+    },
+    {
+        "id": "893370",
+        "title": "Virus:32",
+        "genres": "Horror",
+        "popularity": "1954.425",
+        "release_date": "2022-04-21",
+        "runtime": "90",
+        "vote_average": "7",
+        "poster_path": "wZiF79hbhLK1U2Pj9bF67NAKXQR.jpg"
+    },
+    {
+        "id": "637649",
+        "title": "Wrath of Man",
+        "genres": "Action-Crime-Thriller",
+        "popularity": "270.623",
+        "release_date": "2021-04-22",
+        "runtime": "119",
+        "vote_average": "7.7",
+        "poster_path": "M7SUK85sKjaStg4TKhlAVyGlz3.jpg"
+    },
+    {
+        "id": "949218",
+        "title": "S.O.S. Mamis: La pelicula",
+        "genres": "Comedy",
+        "popularity": "308.662",
+        "release_date": "2022-03-18",
+        "runtime": "105",
+        "vote_average": "5.9",
+        "poster_path": "dubFxWUiXW4QzOygVsChYYIuzfx.jpg"
+    },
+    {
+        "id": "609972",
+        "title": "Paranormal Activity: Next of Kin",
+        "genres": "Horror-Mystery-Thriller",
+        "popularity": "316.464",
+        "release_date": "2021-10-29",
+        "runtime": "98",
+        "vote_average": "6.5",
+        "poster_path": "bXAVveHiLotZbWdg3PKGhAzxYKP.jpg"
+    },
+    {
+        "id": "685274",
+        "title": "Mobile Suit Gundam Hathaway",
+        "genres": "Animation-Action-Drama-Science Fiction",
+        "popularity": "288.448",
+        "release_date": "2021-06-11",
+        "runtime": "96",
+        "vote_average": "7.6",
+        "poster_path": "6gw8onh4FKsruBA7Oouv01EFxzn.jpg"
+    },
+    {
+        "id": "763788",
+        "title": "Dangerous",
+        "genres": "Action-Thriller",
+        "popularity": "265.089",
+        "release_date": "2021-11-05",
+        "runtime": "99",
+        "vote_average": "6.3",
+        "poster_path": "vTtkQGC7qKlSRQJZYtAWAmYdH0A.jpg"
+    },
+    {
+        "id": "14836",
+        "title": "Coraline",
+        "genres": "Animation-Family-Fantasy",
+        "popularity": "235.496",
+        "release_date": "2009-02-05",
+        "runtime": "100",
+        "vote_average": "7.8",
+        "poster_path": "gPMh5rsVrDDAYMDbTcz6Up1DQ4z.jpg"
+    },
+    {
+        "id": "338952",
+        "title": "Fantastic Beasts: The Crimes of Grindelwald",
+        "genres": "Adventure-Fantasy-Drama",
+        "popularity": "262.668",
+        "release_date": "2018-11-14",
+        "runtime": "134",
+        "vote_average": "6.9",
+        "poster_path": "fMMrl8fD9gRCFJvsx0SuFwkEOop.jpg"
+    },
+    {
+        "id": "755812",
+        "title": "Miraculous World: New York, United HeroeZ",
+        "genres": "Animation-Family-Comedy-Adventure-TV Movie",
+        "popularity": "257.721",
+        "release_date": "2020-11-21",
+        "runtime": "55",
+        "vote_average": "8.3",
+        "poster_path": "9YbyvcrHmY2SVbdfXpb8mC4Fy0g.jpg"
+    },
+    {
+        "id": "836225",
+        "title": "The Exorcism of God",
+        "genres": "Horror",
+        "popularity": "273.804",
+        "release_date": "2022-02-10",
+        "runtime": "98",
+        "vote_average": "6.7",
+        "poster_path": "hangTmbxpSV4gpHG7MgSlCWSSFa.jpg"
+    },
+    {
+        "id": "527774",
+        "title": "Raya and the Last Dragon",
+        "genres": "Animation-Family-Fantasy-Action-Adventure",
+        "popularity": "258.845",
+        "release_date": "2021-03-03",
+        "runtime": "107",
+        "vote_average": "8",
+        "poster_path": "lPsD10PP4rgUGiGR4CCXA6iY0QQ.jpg"
+    },
+    {
+        "id": "617653",
+        "title": "The Last Duel",
+        "genres": "Action-Drama-History",
+        "popularity": "265.358",
+        "release_date": "2021-10-13",
+        "runtime": "153",
+        "vote_average": "7.6",
+        "poster_path": "zjrJE0fpzPvX8saJXj8VNfcjBoU.jpg"
+    },
+    {
+        "id": "886896",
+        "title": "Save The Trees",
+        "genres": "Animation",
+        "popularity": "286.312",
+        "release_date": "2021-12-01",
+        "runtime": "80",
+        "vote_average": "4.4",
+        "poster_path": "hdzUP6mV5VlSWVffA4Y18k4LK62.jpg"
+    },
+    {
+        "id": "18491",
+        "title": "Neon Genesis Evangelion: The End of Evangelion",
+        "genres": "Drama-Science Fiction-Animation-Action",
+        "popularity": "330.623",
+        "release_date": "1997-07-19",
+        "runtime": "87",
+        "vote_average": "8.4",
+        "poster_path": "j6G24dqI4WgUtChhWjfnI4lnmiK.jpg"
+    },
+    {
+        "id": "762433",
+        "title": "Zeros and Ones",
+        "genres": "Thriller-War",
+        "popularity": "288.46",
+        "release_date": "2021-11-18",
+        "runtime": "85",
+        "vote_average": "5.2",
+        "poster_path": "a6balsDWCFMHPaPT6rFoBpNjR6z.jpg"
+    },
+    {
+        "id": "943158",
+        "title": "Un Rabon Con Corazon",
+        "genres": "Comedy",
+        "popularity": "229.781",
+        "release_date": "2022-01-27",
+        "runtime": "93",
+        "vote_average": "6.6",
+        "poster_path": "em2LVkDDRcNWLexiQDs5JKGfT0x.jpg"
+    },
+    {
+        "id": "20982",
+        "title": "Naruto Shippuden the Movie",
+        "genres": "Animation-Action-Fantasy",
+        "popularity": "253.205",
+        "release_date": "2007-08-04",
+        "runtime": "94",
+        "vote_average": "7.2",
+        "poster_path": "vDkct38sSFSWJIATlfJw0l3QOIR.jpg"
+    },
+    {
+        "id": "447404",
+        "title": "Pokémon Detective Pikachu",
+        "genres": "Action-Adventure-Fantasy",
+        "popularity": "174.222",
+        "release_date": "2019-05-03",
+        "runtime": "105",
+        "vote_average": "7",
+        "poster_path": "wgQ7APnFpf1TuviKHXeEe3KnsTV.jpg"
+    }
+]

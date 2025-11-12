@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tic Tac Toe</title>
+    <style>
+        html, body {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 60px;
+            height: 60px;
+            border: 1px solid rgba(0, 0, 0, 0.3);
+            text-align: center;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!--the prompt will be hidden at initial status-->
+    <div>{{ X || O }} Win!</div>
+    <table>
+        <tbody>
+        <tr>
+            <td data-x="0" data-y="0"></td>
+            <td data-x="1" data-y="0"></td>
+            <td data-x="2" data-y="0"></td>
+        </tr>
+        <tr>
+            <td data-x="0" data-y="1"></td>
+            <td data-x="1" data-y="1"></td>
+            <td data-x="2" data-y="1"></td>
+        </tr>
+        <tr>
+            <td data-x="0" data-y="2"></td>
+            <td data-x="1" data-y="2"></td>
+            <td data-x="2" data-y="2"></td>
+        </tr>
+        </tbody>
+    </table>
+    <button class="button">Reset</button>
+</div>
+<script>
+    const dataLoad = async () => {
+        return await fetch('/backend.php', {
+            method: 'get',
+            headers: {'Content-Type': 'application/json'}
+        })
+            .then(res => res.json())
+            .then(data => data)
+    }
+
+    const $td = document.querySelectorAll('td');
+
+    let game = [];
+    let computerDelay = false;
+
+    $td.forEach(e => {
+        e.addEventListener('click', async function () {
+            if (computerDelay) return;
+
+            const x = Number(this.dataset.x);
+            const y = Number(this.dataset.y);
+            game = await dataLoad();
+            const target = game.find(data => data.x === x && data.y === y);
+            const checked = target.check;
+            if (checked) {
+                return alert('이미 선택되었습니다.');
+            } else {
+                target.check = 1;
+                target.player = 1;
+                computerDelay = true;
+                gameUpdateRender();
+                setTimeout(() => {
+                    const filterComputer = game.filter(data => !data.check && !data.player);
+                    const random = Math.floor(Math.random() * filterComputer.length);
+                    const randomIndex = game.indexOf(filterComputer[random]);
+                    game[randomIndex].check = 1;
+                    game[randomIndex].computer = 1;
+                    console.log(game);
+                    computerDelay = false;
+                    gameUpdateRender();
+                    gameOverCheck();
+                    // dataUpdate();
+                }, 500);
+            }
+        });
+    });
+
+    const gameUpdateRender = () => {
+        $td.forEach(e => {
+            const tx = Number(e.dataset.x);
+            const ty = Number(e.dataset.y);
+
+            const target = game.find(data => data.x === tx && data.y === ty);
+
+            if (target.check) e.innerText = target.player ? 'X' : 'O';
+        });
+    }
+
+    const dataUpdate = async () => {
+        const formData = new FormData();
+        formData.append('data', JSON.stringify(game));
+        await fetch('/backend.php', {
+            method: 'post',
+            body: formData
+        })
+    }
+
+    const gameOverCheck = () => {
+        let col = [];
+        let row = [];
+        let cross = [];
+
+        for (let i = 0; i < game.length; i += 3) {
+            col.push(game.slice(i, i + 3))
+        }
+
+        for (let i = 0; i < game.length / 3; i++) {
+            row.push(game.filter(e => e.y === i));
+        }
+
+        let left_cross = [];
+        let right_cross = [];
+        for (let i = 0; i < game.length; i++) {
+            if(i % 4 === 0 || !i) left_cross.push(game[i]);
+            if(i % 2 === 0) right_cross.push(game[i]);
+
+        }
+
+        cross.push(left_cross,right_cross);
+
+        console.log(cross);
+
+        // game.forEach((e, idx) => {
+        //     col.push(game.slice)
+        // });
+    }
+
+    // 1. 데이터 서버로 전송해서 적용시키기
+    // 2. 게임 끝나는지 체크하기
+</script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "aed": {
+    "code": "AED",
+    "name": "United Arab Emirates Dirham",
+    "rate": 3.67
+  },
+  "brl": {
+    "code": "BRL",
+    "name": "Brazilian Real",
+    "rate": 5.07
+  },
+  "krw": {
+    "code": "KRW",
+    "name": "South Korean Won",
+    "rate": 1311.86
+  }
+}

@@ -1,0 +1,19 @@
+.particle-btn::before {
+    content: "";
+    background-image: url('data:image/svg+xml;utf8,<svg id= "_레이어_2" data-name= "레이어 2" xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 145.59 67.41" fill="%23ff598c"> <g id= "_레이어_1-2" data-name= "레이어 1" > <circle class= "cls-1" cx= "13.24" cy= "4.59" r= "4.59" /> <circle class= "cls-1" cx= "54.53" cy= "6.88" r= "3.71" /> <circle class= "cls-1" cx= "86.82" cy= "10.59" r= "1.94" /> <circle class= "cls-1" cx= "139.94" cy= "4.59" r= "3" /> <circle class= "cls-1" cx= "3.53" cy= "35.29" r= "3.53" /> <circle class= "cls-1" cx= "18.88" cy= "61.06" r= "4.59" /> <circle class= "cls-1" cx= "53.82" cy= "63.88" r= "3.53" /> <circle class= "cls-1" cx= "106.59" cy= "58.24" r= "2.91" /> <circle class= "cls-1" cx= "140.65" cy= "61.15" r= "4.94" /> </g> </svg> ');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-40%, -50%) scale(1.5);
+    visibility: hidden;
+}
+
+.particle-btn:active::before {
+    transform: translate(-20%, -50%) scale(2);
+    transition: .1s;
+    visibility: visible;
+    background-image: url('data:image/svg+xml;utf8, <svg id= "_레이어_2" data-name= "레이어 2" xmlns= "http://www.w3.org/2000/svg" viewBox= "0 0 175.12 93.94" fill="%23ff598c"> <g id= "_레이어_1-2" data-name= "레이어 1" > <circle class= "cls-1" cx= "1.71" cy= "1.71" r= "1.71" /> <circle class="cls-1" cx= "60.65" cy= "7" r= "1.06" /> <circle class= "cls-1" cx= "101.47" cy= "15.82" r= "2.12" /> <circle class= "cls-1" cx= "164.29" cy= "3.59" r= "1" /> <circle class= "cls-1" cx= "122.65" cy= "80.18" r= "1.53" /> <circle class= "cls-1" cx= "61.59" cy= "89.47" r= "1.18" /> <circle class= "cls-1" cx= "11" cy= "88.29" r= "2.12" /> <circle class= "cls-1" cx= "173" cy= "91.82" r= "2.12" /> </g> </svg> ');
+}
