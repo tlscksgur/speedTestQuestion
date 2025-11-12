@@ -1,0 +1,162 @@
+:root {
+    --index : 0;
+    --checked : 1;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background: #333;
+}
+
+body > *:not(.random) {
+    z-index: -1;
+}
+
+.dice {
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 200px;
+    /*transform: rotateX(calc(360deg * 3)) rotateY(calc(180deg * 3)) rotateZ(calc(360deg * 3));*/
+    transition: 1s linear;
+    perspective: 10000px;
+}
+
+.dice > div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 2px solid red;
+}
+
+.face-1 {
+    transform: translateZ(100px);
+    background: url('1.png') center/cover;
+}
+
+.face-2 {
+    transform: rotateY(-180deg) translateZ(100px);
+    background: url('2.png') center/cover;
+}
+
+.face-3 {
+    transform: rotateY(90deg) translateZ(100px);
+    background: url('3.png') center/cover;
+}
+
+.face-4 {
+    transform: rotateY(-90deg) translateZ(100px);
+    background: url('4.png') center/cover;
+}
+
+.face-5 {
+    transform: rotateX(90deg) translateZ(100px);
+    background: url('5.png') center/cover;
+}
+
+.face-6 {
+    transform: rotateX(-90deg) translateZ(100px);
+    background: url('6.png') center/cover;
+}
+
+.random {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.random-wrapper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 700%;
+    height: 100%;
+    display: flex;
+    animation: random 6s infinite linear;
+}
+
+.random-wrapper > label {
+    width: 100%;
+    height: 100%;
+}
+
+#random-1:checked ~ .dice-area .dice {transform: rotateX(calc(360deg * 3)) rotateY(calc(360deg * 3)) rotateZ(calc(360deg * 3));}
+#random-2:checked ~ .dice-area .dice {transform: rotateX(calc(360deg * 6)) rotateY(calc(180deg + 360deg * 6)) rotateZ(calc(360deg * 6));}
+#random-3:checked ~ .dice-area .dice {transform: rotateX(calc(360deg * 9)) rotateY(calc(-90deg - 360deg * 9)) rotateZ(calc(360deg * 9));}
+#random-4:checked ~ .dice-area .dice {transform: rotateX(calc(360deg * 12)) rotateY(calc(90deg + 360deg * 12)) rotateZ(calc(360deg * 12));}
+#random-5:checked ~ .dice-area .dice {transform: rotateX(calc(-90deg - 360deg * 15)) rotateY(calc(360deg * 15)) rotateZ(calc(360deg * 15));}
+#random-6:checked ~ .dice-area .dice {transform: rotateX(calc(90deg + 360deg * 18)) rotateY(calc(360deg * 18)) rotateZ(0);}
+
+#random-1:checked ~ .dice-area .dice-number::before {content : "Dice Number : 1"}
+#random-2:checked ~ .dice-area .dice-number::before {content : "Dice Number : 2"}
+#random-3:checked ~ .dice-area .dice-number::before {content : "Dice Number : 3"}
+#random-4:checked ~ .dice-area .dice-number::before {content : "Dice Number : 4"}
+#random-5:checked ~ .dice-area .dice-number::before {content : "Dice Number : 5"}
+#random-6:checked ~ .dice-area .dice-number::before {content : "Dice Number : 6"}
+
+
+
+@keyframes random {
+    0% {
+        transform: translateX(0);
+    }
+    16.666% {
+        transform: translateX(-14.2857%);
+    }
+    33.333% {
+        transform: translateX(-28.5714%);
+    }
+    50% {
+        transform: translateX(-42.8571%);
+    }
+    66.666% {
+        transform: translateX(-57.1428%);
+    }
+    83.333% {
+        transform: translateX(-71.4285%);
+    }
+    100% {
+        transform: translateX(-85.7142%);
+    }
+}
+
+input[type="radio"] {display: none}
+
+.dice-number {
+    margin-bottom: 50px;
+    z-index: 1000;
+}
+
+.dice-number::before {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.f {
+    display: flex;
+}
+
+.fd {
+    flex-direction: column;
+}
+
+.aic {
+    align-items: center;
+}
+
+.jcc {
+    justify-content: center;
+}

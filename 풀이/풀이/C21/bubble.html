@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    const CIRCLE_RADIUS = 150;
+    const BUBBLE_COUNT = 10;
+
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    const getRandomX = () => {
+        let r = Math.random() * width;
+        if (r - CIRCLE_RADIUS / 2 < 0) r = CIRCLE_RADIUS / 2;
+        else if (r + CIRCLE_RADIUS / 2 > width) r = width - CIRCLE_RADIUS / 2;
+
+        return r;
+    }
+    const getRandomY = () => {
+        let r = Math.random() * height;
+        if (r - CIRCLE_RADIUS / 2 < 0) r = CIRCLE_RADIUS / 2;
+        else if (r + CIRCLE_RADIUS / 2 > height) r = height - CIRCLE_RADIUS / 2;
+
+        return r;
+    }
+
+    const getRandomColor = () => {
+        const r = Math.floor(Math.random() * 256);
+        const g = Math.floor(Math.random() * 256);
+        const b = Math.floor(Math.random() * 256);
+
+        return `radial-gradient(rgba(${r}, ${g}, ${b}, 0), rgba(${r}, ${g}, ${b}, 1))`;
+    }
+
+    const getBubbleStyle = () => {
+        return `
+        width : ${CIRCLE_RADIUS}px;aspect-ratio : 1/1; border-radius : 50%; background : ${getRandomColor()};
+        position : absolute; transform : translate(-50%, -50%); left : ${getRandomX()}px; top : ${getRandomY()}px;`
+    }
+
+    for (let i = 0; i < BUBBLE_COUNT; i++) {
+        const $div = document.createElement('div');
+        $div.style.cssText = getBubbleStyle();
+        document.body.append($div);
+    }
+</script>
+</body>
+</html>

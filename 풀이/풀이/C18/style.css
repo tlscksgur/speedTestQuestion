@@ -1,0 +1,113 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.aic {
+    align-items: center;
+}
+
+.fd {
+    flex-direction: column;
+}
+
+.image-box > img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#lightBox {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#lightBg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.5);
+}
+
+#popup {
+    width: 1200px;
+    height: 800px;
+    border-radius: 20px;
+    background: white;
+    padding: 5px;
+    position: relative;
+    z-index: 1;
+}
+
+#popup > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.util-btn {
+    position: absolute;
+    padding: 10px 30px;
+    font-size: 1.3rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #333;
+}
+
+#prevBtn {
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#nextBtn {
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#closeBtn {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    padding: 10px 20px;
+    background: crimson;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.util-btn.disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}

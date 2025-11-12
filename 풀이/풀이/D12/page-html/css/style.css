@@ -1,0 +1,73 @@
+:root {
+    --frame1 : 140;
+    --frame2 : 151;
+    --frame3 : 149;
+    --frame4 : 120;
+    --frame5 : 137;
+    --frame6 : 151;
+}
+
+body {
+    min-height: 100vh;
+    background: #ffb300;
+}
+
+.icon {
+    display: inline-block;
+    aspect-ratio:  1/1;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-eye {
+    background-image:  url("../svg/eye.svg");
+    width: 18px;
+}
+
+.icon-clock {
+    background-image:  url("../svg/clock.svg");
+    width: 16px;
+}
+
+.card {
+    overflow: hidden;
+    position: relative;
+}
+
+.gif {
+    width: 480px;
+    height: 270px;
+    background-position: 0;
+    animation-play-state: paused !important;
+}
+
+.gif1 {animation: 5s reverse gif1 infinite steps(var(--frame1))}
+.gif2 {animation: 5s reverse gif2 infinite steps(var(--frame2))}
+.gif3 {animation: 5s reverse gif3 infinite steps(var(--frame3))}
+.gif4 {animation: 5s reverse gif4 infinite steps(var(--frame4))}
+.gif5 {animation: 5s reverse gif5 infinite steps(var(--frame5))}
+.gif6 {animation: 5s reverse gif6 infinite steps(var(--frame6))}
+
+@keyframes gif1 {
+    100% {background-position: calc(480px * var(--frame1))}
+}
+@keyframes gif2 {
+    100% {background-position: calc(480px * var(--frame2))}
+}
+@keyframes gif3 {
+    100% {background-position: calc(480px * var(--frame3))}
+}
+@keyframes gif4 {
+    100% {background-position: calc(480px * var(--frame4))}
+}
+@keyframes gif5 {
+    100% {background-position: calc(480px * var(--frame5))}
+}
+@keyframes gif6 {
+    100% {background-position: calc(480px * var(--frame6))}
+}
+
+.gif:hover {
+    animation-play-state: running !important;
+}

@@ -1,0 +1,82 @@
+body {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.check-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.mb {
+    margin-bottom: 10px;
+}
+
+.mr {
+    margin-right: 10px;
+}
+
+.click-item {
+    position: relative;
+}
+
+.click-item::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 1px;
+    background: black;
+    transition: .5s;
+}
+
+#check1:checked ~ .click-item::before,
+#check2:checked ~ .click-item::before,
+#check3:checked ~ .click-item::before,
+#check4:checked ~ .click-item::before{
+    width: 100%;
+    font-style: oblique;
+    background: #aaa;
+}
+
+#check1:checked ~ .click-item,
+#check2:checked ~ .click-item,
+#check3:checked ~ .click-item,
+#check4:checked ~ .click-item{
+    color: #aaa;
+}
+
+.check-box::before {
+    content: "√";
+    font-size: 1.5rem;
+    line-height: 1rem;
+    visibility: hidden;
+}
+
+#check1:checked ~ .check-box,
+#check2:checked ~ .check-box,
+#check3:checked ~ .check-box,
+#check4:checked ~ .check-box{
+    border: none;
+}
+
+#check1:checked ~ .check-box::before,
+#check2:checked ~ .check-box::before,
+#check3:checked ~ .check-box::before,
+#check4:checked ~ .check-box::before{
+    visibility: visible;
+}
+
+input[type="checkbox"] {display: none}

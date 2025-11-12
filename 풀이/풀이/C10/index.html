@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container {
+            font-size: 14px;
+            color: #666;
+            width: 600px;
+            margin: 50px auto;
+            padding: 15px;
+            overflow: hidden;
+            resize: horizontal;
+            box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.1);
+        }
+
+        .wrap {
+            display: flex;
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .first {
+            margin-right: 3px;
+            width: 225px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .first span {
+            margin-right: 3px;
+        }
+
+        .second {
+            overflow: hidden;
+            direction: rtl;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container" id="container">
+    <div class="wrap">
+        <span class="txt first"><span>Lorem</span> <span>ipsum</span> <span>dolor</span> <span>sit</span> <span>amet,</span> <span>consectetur</span></span>
+        <span class="txt second">!adipisicing elit. Alias, quia</span>
+    </div>
+</div>
+<script>
+    const $container = document.getElementById('container');
+    const $first = document.querySelector('.first');
+    const $span = document.querySelectorAll('.first span');
+    const $second = document.querySelector('.second');
+
+    const initialFirstSpanCount = $first.children.length;
+    const width = $first.offsetWidth + $second.offsetWidth;
+    const ratio = Math.floor(width / initialFirstSpanCount);
+
+    let prevSize = 0;
+
+    function handleResize() {
+        const curSize = $container.offsetWidth;
+        if(curSize <= width) {
+            const idx = Math.floor(curSize / ratio);
+            if(prevSize > curSize) {
+                if($span[idx]) $span[idx].style.display = 'none';
+            } else {
+                if($span[idx]) $span[idx].style.display = 'inline-block';
+            }
+        }
+        prevSize = curSize;
+    }
+
+    const observer = new MutationObserver(handleResize);
+    observer.observe($container, {attributeFilter: ['style']});
+</script>
+</body>
+</html>
+

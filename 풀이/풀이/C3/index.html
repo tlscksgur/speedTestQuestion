@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    function getType(value) {
+        //your code
+        if(Array.isArray(value)) return 'array';
+        if(value === null) return null;
+        if(value === undefined) return undefined;
+        if(/\/(.*)\//.test(value)) return 'regexp';
+        return typeof value;
+    }
+</script>
+
+<script src="test.js"></script>
+</body>
+</html>

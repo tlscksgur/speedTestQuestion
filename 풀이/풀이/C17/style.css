@@ -1,0 +1,37 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+button {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    font-size: 2rem;
+    background: #fff;
+    border: 2px solid #aaa;
+    color: #aaa;
+    overflow: hidden;
+    position: relative;
+}
+
+button span {
+    z-index: 2;
+    pointer-events: none;
+}
+
+#effect {
+    position: absolute;
+    border-radius: 50%;
+    background: #ddd;
+    opacity: 1;
+    aspect-ratio: 1/1;
+    transform: translate(-50%, -50%);
+    width: 0;
+    left: 0;
+    top: 0;
+}

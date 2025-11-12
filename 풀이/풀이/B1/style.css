@@ -1,0 +1,48 @@
+body {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    gap: 10px;
+}
+
+.counter-wrapper > label {
+    height: 80px;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type="checkbox"] {
+    display: none
+}
+
+#num1:checked ~ .counter-wrapper [for="num1"],
+#num2:checked ~ .counter-wrapper [for="num2"],
+#num3:checked ~ .counter-wrapper [for="num3"],
+#num4:checked ~ .counter-wrapper [for="num4"] {
+    background: #ffcc00;
+    border: 2px solid #333;
+}
+
+@property --num1 {  syntax: '<integer>';  inherits: true;  initial-value: 0;  }
+@property --num2 {  syntax: '<integer>';  inherits: true;  initial-value: 0;  }
+@property --num3 {  syntax: '<integer>';  inherits: true;  initial-value: 0;  }
+@property --num4 {  syntax: '<integer>';  inherits: true;  initial-value: 0;  }
+#num1:checked ~ #sum {--num1 : 10;}
+#num2:checked ~ #sum {--num2 : 32;}
+#num3:checked ~ #sum {--num3 : 64;}
+#num4:checked ~ #sum {--num4 : -15;}
+
+#sum::before {
+    content: "Sum : " counter(sum);
+    counter-reset: sum calc(var(--num1) + var(--num2) + var(--num3) + var(--num4));
+}

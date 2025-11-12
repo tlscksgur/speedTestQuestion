@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<svg>
+    <filter id="pixelate" x="0" y="0">
+        <feFlood x="4" y="4" width="2" height="2"></feFlood>
+        <feComposite width="9" height="9"></feComposite>
+        <feTile result="a"></feTile>
+        <feComposite in="SourceGraphic" in2="a" operator="in"></feComposite>
+        <feMorphology operator="dilate" radius="5"></feMorphology>
+    </filter>
+</svg>
+<canvas id="bg-canvas"></canvas>
+<canvas id="filter-canvas"></canvas>
+<div id="color-area" class="f aic">
+    <span>Color Code :</span>
+    <div class="f m">
+        <div id="color-block" class="color m"></div>
+        <span id="code">#ffsadd</span>
+    </div>
+</div>
+<div class="filter">
+    <div class="grid">
+
+    </div>
+</div>
+    <div class="f fd aic">
+        <h1>Load To Image</h1>
+        <div class="f">
+            <img src="./image1.jpg" class="load-image" alt="image">
+            <img src="./image2.jpg" class="load-image" alt="image">
+            <img src="./image3.jpg" class="load-image" alt="image">
+            <img src="./image4.jpg" class="load-image" alt="image">
+            <img src="./image5.png" class="load-image" alt="image">
+        </div>
+    </div>
+    <button class="close-btn">close</button>
+    <script src="./script.js"></script>
+</body>
+</html>

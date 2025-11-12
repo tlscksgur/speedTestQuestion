@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.cloud {
+    position: absolute;
+}
+
+.cloud1 {
+    width: 100px;
+    top: 3%;
+    right: 10px;
+    opacity: .6;
+    animation: cloud1 60s infinite linear;
+}
+
+.cloud2 {
+    width: 170px;
+    top: 20%;
+    right: 100px;
+    opacity: .4;
+    animation: cloud2 55s infinite linear;
+}
+
+@keyframes cloud1 {
+    100% {
+        transform: translateX(calc(-100vw + 10px));
+    }
+}
+@keyframes cloud2 {
+    100% {
+        transform: translateX(calc(-100vw + 100px));
+    }
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    transition: 1.5s;
+    background: url('./images/1.png');
+}
+
+.day-btn {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    padding: 10px 30px;
+    color: indianred;
+    background: khaki;
+    border: none;
+    z-index: 10;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.day-btn:hover {
+    background: midnightblue;
+    color: khaki;
+}
+
+.night-btn {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px 30px;
+    color: khaki;
+    background: midnightblue;
+    border: none;
+    z-index: 10;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+.night-btn:hover {
+    background: khaki;
+    color: indianred;
+}
+
+.space-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200%;
+    transition: 1.5s;
+    z-index: -1;
+
+}
+
+.moon, .sun {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    object-fit: cover;
+    user-select: none;
+}
+
+.moon {
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.sun {
+    left: 50%;
+    bottom: 10%;
+    transform: translate(-50%, 50%);
+}
+
+#sun:checked ~ .space-bg {
+    transform: rotate(180deg);
+}
+#moon:checked ~ .space-bg {
+    transform: rotate(0deg);
+}
+
+#sun:checked ~ .bg {
+    background: #e3c87f;
+}
+
+#moon:checked ~ .bg {
+    background: #000023;
+}
+
+#sun:checked ~ .bg-img {
+    filter: contrast(300%) grayscale(10%) sepia(100%) saturate(300%) brightness(1);
+}
+
+#moon:checked ~ .bg-img {
+    filter: contrast(200%) grayscale(60%) sepia(0) saturate(150%) brightness(.6);
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1.5s;
+    z-index: -1;
+}
+
+input[type="radio"] {display: none}

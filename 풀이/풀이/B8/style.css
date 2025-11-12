@@ -1,0 +1,23 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+span {
+    color: yellow;
+    font-size: 10rem;
+    text-align: center;
+    line-height: 10rem;
+    animation: 10s spin infinite linear;
+}
+
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

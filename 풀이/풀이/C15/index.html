@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+</style>
+    <div>
+        <select id="select">
+            <option value="">---- mode select please. ----</option>
+            <option value="night">Night Mode</option>
+            <option value="light">Light Mode</option>
+        </select>
+        <h1 id="modeText"></h1>
+    </div>
+<script>
+    const $select = document.querySelector('#select');
+    const $modeText = document.querySelector('#modeText');
+
+        $select.addEventListener('input', function() {
+            console.log(document.body.style);
+            if(!this.value) {
+                document.body.style.backgroundColor = '';
+                $modeText.innerText = '';
+            } else if(this.value === 'night') {
+                document.body.style.backgroundColor = '#000000';
+                $modeText.innerText = 'Night Mode Test';
+                $modeText.style.color = '#ffffff';
+            } else {
+                document.body.style.backgroundColor = '#ffffff';
+                $modeText.innerText = 'Light Mode Test';
+                $modeText.style.color = '#000000';
+            }
+        })
+</script>
+</body>
+</html>

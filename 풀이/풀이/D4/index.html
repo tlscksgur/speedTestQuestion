@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<table border="1">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>first_name</th>
+        <th>last_name</th>
+        <th>email</th>
+        <th>country</th>
+        <th>city</th>
+        <th>phone</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+<script>
+    let page = 1;
+
+    const loadApi = async () => {
+        const formData = new FormData();
+        formData.append('page', page);
+        return await fetch('/scroll.php', {
+            method: 'POST',
+            body: formData
+        }).then(res => res.json())
+            .then(data => data);
+    }
+
+    const dataRender = async () => {
+        let tbody = '';
+        let api = await loadApi();
+        api.forEach(e => {
+            const height = window.innerHeight;
+            tbody += `
+                <tr style="height : ${height / 5}px">
+                    <td>${e.id}</td>
+                    <td>${e.first_name}</td>
+                    <td>${e.last_name}</td>
+                    <td>${e.email}</td>
+                    <td>${e.country}</td>
+                    <td>${e.city}</td>
+                    <td>${e.phone}</td>
+                </tr>
+            `
+        });
+
+        document.querySelector('tbody').innerHTML = tbody;
+    }
+
+    const update = async () => {
+        await loadApi();
+        await dataRender();
+    }
+
+    update();
+
+    let i = false;
+
+    window.addEventListener('scroll', function() {
+        const $table = document.querySelector('table');
+        if(i) return;
+        if(window.scrollY + window.innerHeight >= $table.scrollHeight) {
+            i = true;
+            setTimeout(() => {
+                page++;
+                update();
+                i = false;
+            }, 100);
+        }
+    })
+
+</script>
+</body>
+</html>

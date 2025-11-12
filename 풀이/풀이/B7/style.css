@@ -1,0 +1,112 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.flag {
+    width: 900px;
+    height: 600px;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(30deg);
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circle > div {
+    width: 100%;
+    height: 50%;
+}
+
+.circle > div:nth-child(1) {
+    background: red;
+}
+.circle > div:nth-child(2) {
+    background: blue;
+}
+
+.circle::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: red;
+}
+.circle::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: blue;
+}
+
+.box {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.box > div:not(.divide) {
+    width: 25px;
+    height: 100%;
+    background: black;
+}
+
+.divide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.divide > div {
+    width: 25px;
+    height: calc(50% - 6.25px);
+    background: black;
+}
+
+.left-top {
+    transform: translate(-50%, -50%) rotate(35deg);
+    left: 25%;
+    top: 25%;
+}
+
+.right-top {
+    transform: translate(50%, -50%) rotate(-35deg);
+    right: 25%;
+    top: 25%;
+}
+
+.left-bottom {
+    transform: translate(-50%, 50%) rotate(-35deg);
+    left: 25%;
+    bottom: 25%;
+}
+
+.right-bottom {
+    transform: translate(50%, 50%) rotate(35deg);
+    right: 25%;
+    bottom: 25%;
+}

@@ -1,0 +1,36 @@
+/**
+Your Code
+ */
+
+.photos {
+    counter-reset: cnt;
+}
+
+.photo-item:nth-child(n+10):last-child {
+    position: absolute;
+    width: 33.333% !important;
+    height: 33.333% !important;
+    right: 0;
+    bottom: 0;
+}
+
+.photo-item:nth-child(n+10):last-child::before {
+    content: "+" counter(cnt);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.photo-item:nth-child(n+10) {
+    counter-increment: cnt;
+    width: 0;
+    height: 0;
+}

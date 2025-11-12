@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    canvas {
+        border: 1px solid black;
+    }
+</style>
+    <canvas width="1000px" height="550px"></canvas>
+    <script>
+        const loadApi = async () => {
+            return await fetch('/random.php', {
+                headers : {'Content-Type' : 'application/json'},
+                method : 'get',
+            }).then(res => res.json())
+                .then(data => data)
+        }
+
+        const canvas = document.querySelector('canvas');
+
+        const ctx = canvas.getContext('2d')
+
+        const getRandomColor = () => `rgb(${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)},${Math.floor(Math.random() * 256)})`;
+
+        const draw = async () => {
+            const api = await loadApi();
+
+            ctx.clearRect(0,0,canvas.width, canvas.height);
+            const margin = 50;
+            const max = Math.max(...api.map(e => e.value));
+            const maxValue = Math.ceil(max / 100) * 100;
+            const range = maxValue / 5;
+
+            const width = (canvas.width / api.length) - (canvas.width / api.length / 4);
+            const padding = width / 4;
+
+            let x = 0;
+            let left = padding;
+            api.forEach((e,idx) => {
+                ctx.fillStyle = getRandomColor();
+
+                const ratio = e.value / maxValue;
+                const y = (canvas.height) - (maxValue * ratio);
+                const height = maxValue * ratio;
+
+                ctx.beginPath();
+                ctx.fillRect((x + margin / 2) + left, y - margin, width, height);
+                ctx.strokeRect((x + margin / 2) + left, y - margin,width, height);
+                ctx.fill();
+                ctx.stroke();
+
+                ctx.fillStyle = 'black';
+                ctx.textAlign = 'center';
+                ctx.fillText(e.name,(x + margin / 2) + left + width / 2, (canvas.height - margin) + 16);
+
+                left += padding;
+                x += width;
+            });
+
+            ctx.beginPath();
+            ctx.moveTo(margin / 2, 0);
+            ctx.lineTo(margin / 2, canvas.height - margin);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.moveTo(margin / 2, canvas.height - margin);
+            ctx.lineTo(canvas.width, canvas.height - margin);
+            ctx.stroke();
+
+            for(let i = 0; i <= maxValue; i += range) {
+                ctx.fillStyle = 'black';
+                ctx.textAlign = 'left';
+                ctx.fillText(`${i}`, margin / 16, (canvas.height - margin) - (range * i / range) + (i === maxValue ? 8 : 0));
+            }
+        }
+
+        draw();
+    </script>
+</body>
+</html>
