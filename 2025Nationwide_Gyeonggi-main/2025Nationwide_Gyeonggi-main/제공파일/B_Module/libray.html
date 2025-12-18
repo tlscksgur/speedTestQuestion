@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>광주전국경기기능대회</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./공통제공파일/fontawesome/css/all.css" />
+    <script src="./js/lib.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- 사이드바 -->
+      <div class="sideBar">
+        <ul>
+          <li><a href="#visual">비주얼</a></li>
+          <li><a href="#sogea">소개</a></li>
+          <li><a href="#bookList">도서목록</a></li>
+          <li><a href="#rules">이용수칙</a></li>
+        </ul>
+      </div>
+
+      <!-- 헤더 -->
+      <header>
+        <div class="header-logo">
+          <a href="./index.html">
+            <img src="./img/logo/realLogo.png" alt="logo" title="logo" />
+          </a>
+        </div>
+        <div class="header-flex">
+          <ul class="nav1">
+            <li><a href="#">도서이용</a></li>
+            <li><a href="#">신청 및 참여</a></li>
+            <li><a href="./ebook.html">E-Book</a></li>
+            <li><a href="./libray.html">도서관 찾기</a></li>
+          </ul>
+          <ul class="nav2">
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <!-- 도서관 찾기 (캔버스) -->
+      <section class="allLibray">
+        <div class="librayBox">
+          <canvas width="900" height="620" id="library"></canvas>
+          <div class="modal1"></div>
+          <div class="bigModal"></div>
+        </div>
+
+        <div class="searchContentBox">
+          <button class="hiddenBtn">&lt;</button>
+          <div class="searchSideBar">
+            <div class="sideBarContent">
+              <input type="text" class="search" /><button>검색</button>
+              <div class="sideLibrary"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 푸터 -->
+      <footer>
+        <div class="footer-flex">
+          <ul class="ul1">
+            <li>
+              광주 시립 별빛 도서관 | 광주광역시 북구 용봉로 77 (우편번호 61186)
+            </li>
+            <li>전화: 062-410-1234 | 이메일: starlibrary@gwangju.go.kr</li>
+            <li>
+              운영시간: 화–일요일 09:00–21:00 (매주 월요일, 법정 공휴일 휴관)
+            </li>
+          </ul>
+
+          <ul class="ul2">
+            <li>© 2025 Gwangju Starlight Library. All rights reserved.</li>
+            <li>[개인정보처리방침] [이용약관] [오시는 길]</li>
+          </ul>
+
+          <ul class="sns">
+            <li><a href="#" class="fa-youtube"></a></li>
+            <li><a href="#" class="fa-qq"></a></li>
+            <li><a href="#" class="fa-facebook"></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/map.js"></script>
+  </body>
+</html>

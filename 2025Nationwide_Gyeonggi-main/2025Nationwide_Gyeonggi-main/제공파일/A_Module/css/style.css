@@ -1,0 +1,170 @@
+*{margin: 0;padding: 0;list-style: none; text-decoration: none;box-sizing: border-box;color: inherit; scrollbar-width: none;}
+
+:root{
+  --color-fff{color: #fff;}
+}
+
+.flex{display: flex;}
+.jcc{justify-content: center;}
+.spaceB{justify-content: space-between;}
+.spaceA{justify-content: space-around;}
+.spaceE{justify-content: space-evenly;}
+.aic{align-items: center;}
+.m0a{margin: 0 auto;}
+.tac{text-align: center;}
+
+.w100p{width: 100%;}
+.w100vw{width: 100vw;}
+.w1750{width: 1750px;}
+
+.h100p{height: 100%;}
+.h100vh{height: 100vh;}
+
+.fff{color: #fff;}
+.samsamsam{color: #333;}
+
+.fz19{font-size: 19px;}
+
+@font-face {
+  font-family: cksgur;
+  src: url(../공통제공파일/fontawesome/webfonts/);
+}
+
+.container{/* position: relative; */ width: 100vw; height: auto; font-family: cksgur;}
+
+/* ----------헤더---------- */
+header{position: fixed; left: 50%; transform: translateX(-50%); width: 70%; height: 80px; border-radius: 0 0 25px 25px; z-index: 10; background-color: rgba(229, 238, 109, 0.692); color: #fff; font-weight: bold; font-size: 19px; transition: .4s;}
+header:hover{background-color: rgb(255, 226, 59); color: #333;}
+.header-logo{width: 12.5%; margin: 0 auto;}
+
+.header-flex{display: flex; justify-content: space-between; width: 90%; margin: -20px auto;}
+.nav1{display: flex; justify-content: space-between; align-items: center; width: 480px; height: 0px;}
+.nav2{display: flex; justify-content: space-between; align-items: center; width: 175px; height: 0px;}
+
+.nav1>li{transition: .2s;}
+.nav2>li{transition: .2s;}
+.nav1>li:hover{color: rgb(255, 131, 14);}
+.nav2>li:hover{color: rgb(255, 131, 14);}
+
+
+/* ----------슬라이드---------- */
+
+.slideBox{overflow: hidden;}
+.slideBox>ul{display: flex; animation: slide 10s infinite ease-in-out}
+.slideBox>ul>li{position: relative;}
+.slideTxt{position: absolute; top: 0; left: 200px;}
+
+@keyframes slide {
+  0%{transform: translateX(0%);}
+  25%{transform: translateX(0%);}
+  
+  32%{transform: translateX(-100%);}
+  57%{transform: translateX(-100%);}
+  
+  64%{transform: translateX(-200%);}
+  89%{transform: translateX(-200%);}
+
+  99.999999%{transform: translateX(-300%);}
+  0%{transform: translateX(0%);}
+}
+
+/* --------텍스트 애니메이션--------- */
+
+/* .slideTxt{display: flex; align-items: center; height: 100vh;} */
+.txtAnimation1{width: 53ch; animation: typing1 3s steps(32, end) infinite; white-space: nowrap; overflow: hidden; font-size: 25px; font-weight: bold;}
+.txtAnimation2{width: 53ch; animation: typing2 3s steps(32, end) infinite; animation-delay: 3.5s; white-space: nowrap; overflow: hidden; font-size: 25px; font-weight: bold;}
+.txtAnimation3{width: 53ch; animation: typing2 3s steps(32, end) infinite; animation-delay: 6.5s; white-space: nowrap; overflow: hidden; font-size: 25px; font-weight: bold;}
+
+@keyframes typing1 { to{width: 53ch;} from{width: 0px;} }
+@keyframes typing2 { to{width: 53ch;} from{width: 0px;} }
+@keyframes typing3 { to{width: 53ch;} from{width: 0px;} }
+
+
+
+/* -----------도서관 책 정렬---------- */
+
+.library{width: 100%; height: max-content; margin-top: 100px; background-color: antiquewhite;}
+.library > ul{gap: 10px; width: 90%; margin: 50px auto; grid-template-columns: repeat(3, 1fr);}
+
+/* .library:has(input:placeholder-shown) > ul{grid-template-columns: repeat(3, 1fr);} */
+.library:has(input:in-range:not(:placeholder-shown)) > ul{grid-template-columns: repeat(4, 1fr);}
+.library:has(input:out-of-range:not(:placeholder-shown)) > ul{grid-template-columns: repeat(5, 1fr);}
+
+
+.ctlBox{display: flex; justify-content: space-between; width: 200px; margin-left: 100px;}
+.AscDesc{cursor: pointer;}
+
+.ascList, .descList{display: none;}
+
+.library:has(#asc:checked) .ascList{display: grid;}
+.library:has(#desc:checked) .descList{display: grid;}
+
+/* -----------소개영역--------- */
+
+.contentB{width: 100%; height: 400px;}
+.contentImg{position: relative; width: 55%; height: 400px; margin: 100px auto;}
+.contentImg img{width: 1000px; height: 380px;}
+.sogeaTxt{position: absolute; top: 40px; color: #fff; text-align: center; transition: .3s;}
+.sogeaTxt:hover{color: tomato;}
+
+
+/* --------------이용수칙 영역---------------- */
+
+.useRule{width: 100%; height: 300px;}
+.useRule > ul{width: 50%; margin: 0 auto;}
+.useRule>ul>li{padding: 5px;}
+
+/* --------------신청 및 참여 영역---------------- */
+
+.month{display: flex; justify-content: space-between; width: 60%; margin: 60px auto;}
+.month label{display: block; width: 50px; height: 50px; line-height: 50px; border: 1px solid;}
+.month input:checked + label{background: gold;}
+
+
+.monthEvent{display: flex;}
+.eb{width: 400px; height: 150px; margin: 0 auto; border: 1px solid;}
+
+#m2 + label{background-color: gray;}
+#m3 + label{background-color: gray;}
+#m8 + label{background-color: gray;}
+#m10 + label{background-color: gray;}
+#m11 + label{background-color: gray;}
+#m12 + label{background-color: gray;}
+
+.month1, .month4, .month5, .month9, .month57{display: none;}
+
+.monthBox:has(#m1:checked) ~ .monthEvent .month1{display: block;}
+.monthBox:has(#m4:checked) ~ .monthEvent .month4{display: flex;}
+.monthBox:has(#m5:checked) ~ .monthEvent .month5{display: flex;}
+.monthBox:has(#m5:checked) ~ .monthEvent .month57{display: block;}
+.monthBox:has(#m6:checked) ~ .monthEvent .month57{display: block;}
+.monthBox:has(#m7:checked) ~ .monthEvent .month57{display: block;}
+.monthBox:has(#m9:checked) ~ .monthEvent .month9{display: block;}
+
+
+/* ----------푸터---------- */
+footer{/* position: absolute; bottom: 0; */ width: 100%; height: 100px; background-color: #333; color: #fff;}
+.footer-flex{display: flex; justify-content: space-between; align-items: center; width: 1200px; height: 100px; margin-left: 100px;}
+
+.ul1{font-size: 15px;}
+.ul1>li{padding: 2.5px;}
+
+.ul2{font-size: 15px;}
+.ul2>li{padding: 2.5px;}
+
+.sns{display: flex; justify-content: space-between; width: 115px;}
+
+
+/* -------로딩 애니메이션------- */
+.lodingAnimation{width: 100%; height: 100%;}
+svg{width: 100%; margin: 400px auto;}
+path{fill: transparent; stroke: black; stroke-width: 1.5; stroke-dasharray: 3000; stroke-dashoffset: 3000; stroke-linecap: round; stroke-linejoin: round; animation: drawLine 3s ease-in-out forwards, fill 1s ease-in-out 1.5s forwards;}
+@keyframes drawLine { to{stroke-dashoffset: 0;} }
+@keyframes fill { to{fill: #333;} }
+
+/* ---------사이드 바--------- */
+
+.sideBar{position: fixed; top: 350px; left: 40px; width: 90px; height: 200px; text-align: center; background-color: lightgray; border-radius: 20px; font-weight: bold; color: 333; z-index: 1;}
+.sideBar ul{display: flex; justify-content: space-around; flex-direction: column; width: 90px; height: 200px;}
+.sideBar ul li{transition: .2s;}
+.sideBar ul li:hover{color: #fff;}

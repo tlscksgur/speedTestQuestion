@@ -1,0 +1,41 @@
+[
+    {
+        "id": "admin",
+        "password": "1234",
+        "category": "admin",
+        "name": "관리자",
+        "profile": "profile.jpg"
+    },
+    {
+        "id": "manager1",
+        "password": "1234",
+        "category": "manager",
+        "name": "도서관 관장1",
+        "library": "서하 도서관",
+        "profile": "profile.jpg"
+    },
+    {
+        "id": "manager2",
+        "password": "1234",
+        "category": "manager",
+        "name": "도서관 관장2",
+        "library": "살별 도서관",
+        "profile": "profile.jpg"
+    },
+    {
+        "id": "manager3",
+        "password": "1234",
+        "category": "manager",
+        "name": "도서관 관장3",
+        "library": "오로라 도서관",
+        "profile": "profile.jpg"
+    },
+    {
+        "id": "manager4",
+        "password": "1234",
+        "category": "manager",
+        "name": "도서관 관장4",
+        "library": "별하 도서관",
+        "profile": "profile.jpg"
+    }
+]
